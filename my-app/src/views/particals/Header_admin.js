@@ -1,4 +1,9 @@
-<header class="header">
+import React from 'react'
+
+export default function Header_admin() {
+  return (
+    <>
+    <header class="header">
   <a href="/" class="header__logo">Admin Panel</a>
 
   <nav class="header__nav">
@@ -23,3 +28,6 @@
   </div>
 
 </header>
+    </>
+  )
+}
